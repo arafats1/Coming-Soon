@@ -43,8 +43,8 @@ $(window).on("load", function() {
   // },100);
 
   // setTimeout(function(){
-    $('body').removeClass('overflow-hidden');
-    $(".loader").addClass('fade loaded');
+    // $('body').removeClass('overflow-hidden');
+    // $(".loader").addClass('fade loaded');
   // },100);
   // --------------------------------------------- //
   // Loader End
