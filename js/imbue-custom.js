@@ -227,7 +227,7 @@ $(function () {
   // Check if the endDate has passed, then set it 30 days past.
   if (currentDate > endDate) {
     // If endDate has passed, set it to be 30 days ahead of the current date
-    endDate = new Date(currentDate.getTime() + 30 * 24 * 60 * 60 * 1000);
+    endDate = new Date(currentDate.getTime() + 7 * 24 * 60 * 60 * 1000);
   }
   $('#countdown').countdown({ until: endDate, format: 'D' });
   $('#countdown-large').countdown({ until: endDate, format: 'DHMS' });
