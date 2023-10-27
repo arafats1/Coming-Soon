@@ -690,8 +690,8 @@ h1.light {
 .headline__subtitle {
   display: block;
   font: italic 600 2.8rem/1.2 "CormorantGaramond", serif;
-  color: #C69681;
-  background: -webkit-linear-gradient(-45deg, #c69681 0%, #dbbead 30%, #efab92 70%, #c69681 100%);
+  color: red;
+  background: -webkit-linear-gradient(-45deg, rgb(170, 50, 50) 100%, #dbbead 30%, #efab92 70%, #c69681 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding-top: 2.4rem;
@@ -1055,7 +1055,7 @@ a {
 }
 
 .no-touch .btn-light:hover .btn-caption {
-  color: #212121;
+  color: rgb(170, 50, 50);
 }
 
 .btn-light-outline {
@@ -1073,7 +1073,7 @@ a {
 }
 
 .no-touch .btn-light-outline:hover .btn-caption {
-  color: #212121;
+  color: rgb(170, 50, 50);
 }
 
 .btn-dark {
@@ -1100,7 +1100,7 @@ a {
 }
 
 .no-touch .btn-dark:hover .btn-caption {
-  color: #212121;
+  color: rgb(170, 50, 50);
 }
 
 .section-close {

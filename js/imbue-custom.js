@@ -240,7 +240,7 @@ $(function () {
   // --------------------------------------------- //
   $('.notify-form').ajaxChimp({
     callback: mailchimpCallback,
-    url: 'https://gmail.us5.list-manage.com/subscribe/post?u=9a140f9d45d78185b103fa0fe&amp;id=50ce69c377'
+    url: 'mailto:dev@mobiklinic.com'
   });
 
   function mailchimpCallback(resp) {
